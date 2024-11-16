@@ -2,8 +2,8 @@ name: Yatin Calculator and Notify
 
 on:
   schedule:
-    - cron: '59 9 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '*/5 * * * *'
+    - cron: '29 9 * * *'  # 毎日9:00 AMに実行 (UTC)
+    - cron: '3 * * * *'
   workflow_dispatch:  # 手動での実行を許可
 
 jobs:
