@@ -2,26 +2,26 @@ name: Yatin Calculator and Notify
 
 on:
   schedule:
-    - cron: '30 1 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '32 2 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '34 3 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '36 4 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '38 5 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '40 6 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '42 7 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '44 8 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '46 9 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '48 10 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '50 11 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '52 12 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '54 13 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '56 14 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '58 15 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '10 16 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '12 17 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '14 18 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '16 19 * * *'  # 毎日9:00 AMに実行 (UTC)
-    - cron: '18 20 * * *'  # 毎日9:00 AMに実行 (UTC)
+    - cron: '30 1 * * *'
+    - cron: '32 2 * * *'
+    - cron: '34 3 * * *'
+    - cron: '36 4 * * *'
+    - cron: '38 5 * * *'
+    - cron: '40 6 * * *'
+    - cron: '42 7 * * *'
+    - cron: '44 8 * * *'
+    - cron: '46 9 * * *'
+    - cron: '48 10 * * *'
+    - cron: '50 11 * * *'
+    - cron: '52 12 * * *'
+    - cron: '54 13 * * *'
+    - cron: '56 14 * * *'
+    - cron: '58 15 * * *'
+    - cron: '10 16 * * *'
+    - cron: '12 17 * * *'
+    - cron: '14 18 * * *'
+    - cron: '16 19 * * *'
+    - cron: '18 20 * * *'
     - cron: '10 * * * *'
   workflow_dispatch:  # 手動での実行を許可
 
@@ -36,7 +36,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '14'
+        node-version: '20'
 
     - name: Install dependencies
       run: npm install
