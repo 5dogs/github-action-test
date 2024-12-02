@@ -1,8 +1,9 @@
 name: Yatin Calculator and Notify
 
 on:
-  schedule:
-    - cron: '30 1,2,4,7,11,16,22 * * *'
+  # schedule:
+    # - cron: '30 1,2,4,7,11,16,22 * * *'
+    #実際:   '30 ?,11,13,16,20,25,7, * * *'JST+9で実行される。設定したい時間-9をかく。毎時30分設定だが、38~42ぐらいで実行される
   workflow_dispatch:  # 手動での実行を許可
 
 jobs:
