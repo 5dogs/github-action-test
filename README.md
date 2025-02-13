@@ -1,4 +1,4 @@
-github actionのテスト用リポジトリです。個人用LINENotifyに芦屋市の住居手当の月額が送信されます。
+github actionのテスト用リポジトリです。個人用LINENotifyに芦屋市行政一般職員の住居手当の月額が送信されます。
 
 github actionの料金表
 https://docs.github.com/ja/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions#about-billing-for-github-actions
